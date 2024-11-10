@@ -8,9 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      container :{
+        center: true,
+        
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+       accent: "#08E95E"
       },
     },
   },
