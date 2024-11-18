@@ -9,7 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       container :{
-        center: true,
+        screens: {
+          xs: '480',
+          xxs: '320',
+          xxxs: '250',
+        },
         
       },
       colors: {
